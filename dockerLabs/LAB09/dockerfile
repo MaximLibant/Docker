@@ -1,0 +1,3 @@
+FROM alpine
+ENV welcomeMSG="Welcome to the world of docker"
+CMD ["sh", "-c", "echo ${welcomeMSG}"]

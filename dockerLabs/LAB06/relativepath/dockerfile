@@ -1,0 +1,10 @@
+FROM alpine
+
+WORKDIR /opt
+RUN echo "welcome to dockerlabs" > opt.txt
+WORKDIR folder1
+RUN echo "welcome to docker labs 2" > folder1.txt
+WORKDIR folder2
+RUN echo "welcome to docker labs 3" > folder2.txt
+
+#by the end the full path is /opt/folder1/folder2

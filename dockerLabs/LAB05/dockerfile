@@ -1,0 +1,6 @@
+FROM alpine:3.5
+LABEL maintainer="Maixm"
+ENTRYPOINT echo "hi, this is an shell ENTRYPOINT"
+
+#ENTRYPOINT echo "hi, this is an shell ENTRYPOINT"
+#ENTRYPOINT ["/bin/echo", "hi, this is an exec ENTRYPOINT"]

@@ -1,0 +1,4 @@
+FROM alpine
+
+ENV DIRPATH /myfolder
+WORKDIR $DIRPATH

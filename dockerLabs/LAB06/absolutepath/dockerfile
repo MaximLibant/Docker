@@ -1,0 +1,5 @@
+FROM alpine
+WORKDIR /opt
+RUN echo pwd
+WORKDIR /var
+RUN echo pwd

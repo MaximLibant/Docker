@@ -1,0 +1,5 @@
+#goal: Create a docker file with the run instruction
+FROM alpine
+RUN apk add --update    &&\
+    apk add curl        &&\
+    rm -rf /var/cache/apk/
